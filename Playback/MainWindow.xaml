@@ -12,8 +12,11 @@
         </Grid.ColumnDefinitions>
         <TextBox x:Name="txtRuta" HorizontalAlignment="Left" Height="23" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="405"/>
         <Button x:Name="btn_Buscar" Content="Buscar" HorizontalAlignment="Left" Margin="420,20,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_Buscar_Click"/>
-        <Button x:Name="btn_Play" Content="Play" HorizontalAlignment="Left" Margin="15,48,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_Play_Click"/>
-        <Button x:Name="btn_Stop" Content="Stop" HorizontalAlignment="Left" Margin="95,48,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_Stop_Click"/>
+        <Button x:Name="btn_Play" Content="Play" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_Play_Click"/>
+        <Button x:Name="btn_Stop" Content="Stop" HorizontalAlignment="Left" Margin="120,100,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_Stop_Click" IsEnabled="False"/>
+        <Slider x:Name="sldPosition" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Height="27" Width="405"/>
+        <TextBlock x:Name="lblPosition" HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="0:00" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblDuration" HorizontalAlignment="Left" Margin="366,70,0,0" TextWrapping="Wrap" Text="0:00" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
